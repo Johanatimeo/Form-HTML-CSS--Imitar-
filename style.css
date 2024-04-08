@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    padding: 20px;
+    width: 50%;
+    margin: 100px auto;
+    background-color: #f9f9f9;
+}
+
+
+ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    text-align: start;
+    padding: 0;
+    margin: 0;
+  }
+
+  li {
+    margin: 10px;
+    display: flex;
+    width: 100%;
+  }
+
+  label {
+   width: 20%;
+    color: black;
+  }
+  
+  input, textarea {
+    width: 300px;
+  }
+
+ input[name=button] {
+   width: 100px;
+   position: relative;
+   left: 100px;
+ }
